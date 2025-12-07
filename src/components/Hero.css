@@ -1,0 +1,36 @@
+.hero { 
+  background-image: url('./../../public/assets/kaba.jpg');
+  background-size: cover; 
+  background-position: center; 
+  position: relative; 
+  padding: 100px 0; 
+  height: 600px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+.hero-overlay {
+  border-radius: 12px;
+  padding: 20px 0px 20px 0px;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(12px);  
+}
+
+.hero-inner { display:flex; align-items:center; }
+.hero-left { flex:1; color:#fff; }
+.hero-left h1 { font-size:2.2rem; margin:0 0 12px; }
+.hero-left p { max-width:600px; line-height:1.6; opacity:0.95; }
+.hero-actions { margin-top:18px; display:flex; gap:12px; }
+.hero-right { width:320px; }
+.card { background: #fff; padding:18px; border-radius:8px; box-shadow:0 6px 20px rgba(8,20,30,0.12); color:#21303a; }
+.card h4 { margin:0 0 8px; }
+
+
+@media (max-width: 900px) {
+.hero-inner{ flex-direction:column; }
+.hero-right{ width:100%; }
+.hero-left h1{ font-size:1.6rem; }
+}

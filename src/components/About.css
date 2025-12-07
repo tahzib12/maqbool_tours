@@ -1,0 +1,8 @@
+.about-inner{ display:flex; gap:28px; align-items:center; }
+.about-media img{ width:100%; max-width:520px; border-radius:8px; box-shadow:0 10px 30px rgba(8,20,30,0.08); }
+.about-body{ flex:1; padding: 10px; }
+.about-body h2{ color:#0C3B2E; }
+.about-body ul{ margin:12px 0 18px 18px; }
+
+
+@media (max-width:900px){ .about-inner{ flex-direction:column; } .about-media img{ max-width:100%; } }

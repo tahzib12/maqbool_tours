@@ -1,0 +1,10 @@
+.contact-inner{ display:flex; gap:28px; align-items:flex-start; }
+.contact-left{ flex:1; color: #0C3B2E; }
+.contact-right{ flex:1; }
+.contact-info{ list-style:none; padding:0; margin:10px 0 0; }
+.contact-info li{ margin:8px 0; }
+.contact-form input, .contact-form textarea{ width:100%; padding:10px 12px; margin-bottom:10px; border-radius:6px; border:1px solid #d9e6ea; }
+.contact-form .row{ display:flex; gap:10px; }
+.contact-form .row input{ flex:1; }
+.sent{ color:green; font-weight:700; }
+@media (max-width:900px){ .contact-inner{ flex-direction:column; } .contact-form .row{ flex-direction:column; } }

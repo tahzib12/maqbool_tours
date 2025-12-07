@@ -1,0 +1,10 @@
+.footer{ background:#0C3B2E; color:#d7eef6; padding:36px 0 12px; }
+.footer-inner{ display:flex; gap:24px; align-items:flex-start; }
+.f-about{ flex:2; }
+.f-links{ flex:1; }
+.f-links ul{ list-style:none; padding:0; }
+.f-news{ flex:1; }
+.news-form{ display:flex; gap:8px; margin-top:8px; }
+.news-form input{ padding:8px 10px; border-radius:6px; border:none; }
+.f-bottom{ text-align:center; padding:16px 0 0; font-size:0.9rem; color:#bcdfe7; }
+@media (max-width:900px){ .footer-inner{ flex-direction:column; } }

@@ -1,0 +1,13 @@
+.packages .section-title { text-align:center; color:#0C3B2E; }
+.packages .section-sub { text-align:center; color:#0C3B2E; margin-bottom:28px; }
+.cards { display:grid; grid-template-columns: repeat(4,1fr); gap:22px; }
+.pkg { background:#fff; border-radius:8px; overflow:hidden; box-shadow:0 10px 30px rgba(5,20,30,0.06); }
+.pkg-media img{ width:100%; height:170px; object-fit:cover; display:block; }
+.pkg-body{ padding:14px; }
+.pkg-body h3{ margin:0 0 6px; color:#0C3B2E; }
+.price{ font-weight:700; color:#0C3B2E; margin-bottom:8px; }
+.pkg-actions{ margin-top:10px; }
+
+
+@media (max-width:1100px){ .cards{ grid-template-columns:repeat(2,1fr);} }
+@media (max-width:600px){ .cards{ grid-template-columns:1fr;} .pkg-media img{ height:160px;} }
