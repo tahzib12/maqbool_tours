@@ -7,7 +7,7 @@ const imgs = ['/assets/rauja.webp','/assets/Jannat-Al-Mualla.jpg','/assets/hajre
 
 export default function Gallery(){
 return (
-<section className="section gallery">
+<section className="section gallery" style={{ fontFamily: "'Reem Kufi Fun', sans-serif" }}>
 <div className="container">
 <h2 className="section-title">Sacred Moments & Places</h2>
 <div className="grid">

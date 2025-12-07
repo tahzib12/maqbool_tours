@@ -4,7 +4,7 @@ import './Footer.css';
 
 export default function Footer(){
 return (
-<footer className="footer">
+<footer className="footer" style={{ fontFamily: "'Reem Kufi Fun', sans-serif" }}>
 <div className="container footer-inner">
 <div className="f-about">
 <img src="/assets/logo.png" alt="logo" style={{width:70}}/>
@@ -23,8 +23,8 @@ return (
 <h4>Newsletter</h4>
 <p>Sign up for latest departures & offers.</p>
 <form onSubmit={e=>e.preventDefault()} className="news-form">
-<input placeholder="Your email" />
-<button className="btn">Subscribe</button>
+<input placeholder="Your email" style={{ fontFamily: "'Reem Kufi Fun', sans-serif" }}/>
+<button className="btn" style={{ fontFamily: "'Reem Kufi Fun', sans-serif" }}>Subscribe</button>
 </form>
 </div>
 </div>

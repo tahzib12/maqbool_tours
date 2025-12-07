@@ -28,7 +28,7 @@ export default function Testimonials() {
   const prev = () => setI((i - 1 + testimonials.length) % testimonials.length);
 
   return (
-    <section className="section testimonials">
+    <section id="testimonials" className="section testimonials" style={{ fontFamily: "'Reem Kufi Fun', sans-serif" }}>
       <div className="container">
         <h2 className="section-title">Clients Speak</h2>
 

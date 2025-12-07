@@ -12,9 +12,9 @@ const pkgs = [
 
 export default function Packages(){
 return (
-<section id="packages" className="section packages">
+<section id="packages" className="section packages" style={{ fontFamily: "'Reem Kufi Fun', sans-serif" }}>
 <div className="container">
-<h2 className="section-title">Our Featured Packages</h2>
+<h2 className="section-title" >Our Featured Packages</h2>
 <p className="section-sub">Choose from trusted packages tailored for comfort and devotion.</p>
 <div className="cards">
 {pkgs.map(p=> (

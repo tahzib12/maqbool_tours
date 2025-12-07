@@ -1,5 +1,5 @@
 .nav-wrap { 
-    border-radius: 50px;
+    border-radius: 50px;    
     margin: 16px;
     position: fixed;
     z-index: 10;
@@ -14,7 +14,7 @@
 
 
 .nav-links { display:flex; gap:20px; align-items:center; }
-.nav-links a { text-decoration:none; color:#0C3B2E; padding:6px 8px; border-radius:6px; }
+.nav-links a { text-decoration:none; color:#0C3B2E; padding:6px 8px; border-radius:6px;   font-Family: "'Reem Kufi Fun', sans-serif";}
 .nav-links a:hover { background: #0C3B2E; color: #fff; }
 .nav-links a.cta { background:#0C3B2E; color:#fff; padding:8px 12px; }
 

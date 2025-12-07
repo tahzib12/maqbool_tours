@@ -4,7 +4,7 @@ import './Hero.css';
 
 export default function Hero(){
 return (
-<section id="home" className="hero">
+<section id="home" className="hero" style={{ fontFamily: "'Reem Kufi Fun', sans-serif" }}>
 <div className="hero-overlay">
 <div className="container hero-inner">
 <div className="hero-left">

@@ -16,7 +16,7 @@ setForm({name:'', email:'', phone:'', message:''});
 
 
 return (
-<section id="contact" className="section contact">
+<section id="contact" className="section contact" style={{ fontFamily: "'Reem Kufi Fun', sans-serif" }}>
 <div className="container contact-inner">
 <div className="contact-left">
 <h2>Get In Touch</h2>
@@ -30,14 +30,14 @@ return (
 <div className="contact-right">
 <form onSubmit={handleSubmit} className="contact-form">
 <div className="row">
-<input name="name" value={form.name} onChange={handleChange} placeholder="Full name" required />
-<input name="email" value={form.email} onChange={handleChange} placeholder="Email" type="email" required />
+<input name="name" value={form.name} onChange={handleChange} placeholder="Full name" required style={{ fontFamily: "'Reem Kufi Fun', sans-serif" }}/>
+<input name="email" value={form.email} onChange={handleChange} placeholder="Email" type="email" required style={{ fontFamily: "'Reem Kufi Fun', sans-serif" }}/>
 </div>
-<input name="phone" value={form.phone} onChange={handleChange} placeholder="Phone number" required />
-<textarea name="message" value={form.message} onChange={handleChange} placeholder="Your message" rows={5} required />
+<input name="phone" value={form.phone} onChange={handleChange} placeholder="Phone number" required style={{ fontFamily: "'Reem Kufi Fun', sans-serif" }}/>
+<textarea name="message" value={form.message} onChange={handleChange} placeholder="Your message" rows={5} required style={{ fontFamily: "'Reem Kufi Fun', sans-serif" }}/>
 <div style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
-<button className="btn" type="submit">Send Message</button>
-{sent && <span className="sent">Message sent ✓</span>}
+<button className="btn" type="submit" style={{ fontFamily: "'Reem Kufi Fun', sans-serif" }}>Send Message</button>
+{sent && <span className="sent" style={{ fontFamily: "'Reem Kufi Fun', sans-serif" }}>Message sent ✓</span>}
 </div>
 </form>
 </div>
