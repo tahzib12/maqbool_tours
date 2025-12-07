@@ -23,6 +23,15 @@ return (
 <Contact />
 </main>
 <Footer />
+<a
+  href="https://wa.me/917376906787"
+  className="whatsapp-float"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="/assets/whatsapplogo.png" alt="WhatsApp" />
+</a>
+
 </div>
 );
 }

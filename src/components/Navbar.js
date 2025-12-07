@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import { FaPhoneAlt, FaBars, FaTimes } from 'react-icons/fa';
+import {FaBars, FaTimes } from 'react-icons/fa';
 
 export default function Navbar(){
 const [open, setOpen] = useState(false);
@@ -9,7 +9,12 @@ return (
 <div className="nav-main container">
 <div className="brand">
 <img src="/assets/newlogowb.png" alt="Maqbool Tours" className="logo" />
-<div className="brand-text" style={{ fontFamily: "'Reem Kufi Fun', sans-serif" }}><span>Maqbool</span><small>Tours & Travels</small></div>
+<div className="brand-text" style={{
+    fontFamily: "'Reem Kufi Fun', sans-serif",
+    lineHeight: "16px",
+    display: "flex",
+    flexDirection: "column"
+  }}><span>Maqbool</span><small>Tours & Travels</small></div>
 </div>
 
 
